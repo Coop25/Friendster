@@ -1,0 +1,22 @@
+{
+  "name": "findster",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Coop25/Friendster.git"
+  },
+  "author": "Cooper",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Coop25/Friendster/issues"
+  },
+  "homepage": "https://github.com/Coop25/Friendster#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
