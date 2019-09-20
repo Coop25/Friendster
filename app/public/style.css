@@ -8,3 +8,8 @@ body {
     background: gray;
     margin: auto;
 }
+
+.middler {
+    margin: auto;
+    width: 960px;
+}
