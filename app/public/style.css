@@ -7,6 +7,7 @@ body {
     background: gray;
     margin: auto;
     padding: 15px;
+    border-radius: 0 0 15px 15px;
 }
 
 .middler {
@@ -15,7 +16,7 @@ body {
 }
 
 .button {
-    background-color: #1c87c9;
+    background-color: #0e3d5a;
     border: none;
     color: white;
     padding: 20px 34px;
@@ -25,30 +26,22 @@ body {
     font-size: 20px;
     margin: 4px 2px;
     cursor: pointer;
+    border-radius: 5px;
 }
 
 /* The Modal (background) */
 .modal {
     display: none;
-    /* Hidden by default */
     position: fixed;
-    /* Stay in place */
     z-index: 1;
-    /* Sit on top */
     padding-top: 100px;
-    /* Location of the box */
     left: 0;
     top: 0;
     width: 100%;
-    /* Full width */
     height: 100%;
-    /* Full height */
     overflow: auto;
-    /* Enable scroll if needed */
     background-color: rgb(0, 0, 0);
-    /* Fallback color */
     background-color: rgba(0, 0, 0, 0.4);
-    /* Black w/ opacity */
 }
 
 /* Modal Content */
@@ -87,4 +80,33 @@ body {
     font-size: 25px;
     font-weight: bold;
     border-radius: 5px;
+}
+
+#submit {
+    width: 92%;
+}
+
+select {
+    border-radius: 5px;
+}
+
+form h1 {
+    margin: 0;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+form p {
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+form h3 {
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+a {
+    font-size: 14px;
 }
